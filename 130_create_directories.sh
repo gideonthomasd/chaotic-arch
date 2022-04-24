@@ -2,7 +2,18 @@
 
 
 ############ Make sh executable #######################  padsp mocp ####### (if needed) ######################
-
+cd rofi
+cd applets
+cd applets
+chmod +x *.sh
+cd ..
+cd ..
+cd launchers
+cd colorful
+chmod +x *.sh
+cd ..
+cd ..
+cd ..
 
 
 cd bspwm
@@ -92,6 +103,9 @@ fi
 #[ -d $HOME"/.config/rofi" ] || mkdir -p $HOME"/.config/rofi"
 #[ -d $HOME"/.config/jgmenu" ] || mkdir -p $HOME"/.config/jgmenu"
 
+mkdir -p ~/.config/picom
+cp picom.conf ~/.config/picom/picom.conf
+
 ####Install Spectrtwm####################
 
 cd spectrwm
@@ -172,6 +186,10 @@ chmod +x *.sh
 cd ..
 
 cd i3New
+cd bin
+chmod +x *.sh
+cd ..
+
 cd polybar
 chmod +x *.sh
 cd ..
@@ -230,7 +248,7 @@ sudo make clean install
 
 
 #########################Install bumblebee-status files - mine
-cd ~/bspwm-arco/i3/bumblebee-status/myfiles
+cd ~/chaotic-arch/i3/bumblebee-status/myfiles
 sudo cp -r * /usr/share/bumblebee-status/bumblebee_status/modules/contrib
 
 
