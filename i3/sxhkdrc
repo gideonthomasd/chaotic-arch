@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	st
+	xfce4-terminal
 # For transparency do yay -S ....
 # program launcher
 super + p

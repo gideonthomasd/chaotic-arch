@@ -44,7 +44,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal #altered
-bindsym $mod+Return exec st
+bindsym $mod+Return exec xfce4-terminal
 
 
 # kill focused window #altered
@@ -232,10 +232,10 @@ client.focused          #bf616a #cecece #000000 #FF0000 #99004C
 # My commands
 exec_always lxpolkit
 exec_always sxhkd -c /home/phil/.config/i3/sxhkdrc
-exec_always xcompmgr
+exec_always picom
 #exec_always feh --bg-scale --randomize ~/Pictures/wallpapers/*
 #exec_always /home/phil/.config/i3/testwallpaper
-exec_always blueman-applet
+#exec_always blueman-applet
 exec_always nm-applet
 
 #exec_always $HOME/.config/polybar/launch2.sh
