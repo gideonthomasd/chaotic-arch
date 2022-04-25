@@ -106,6 +106,11 @@ fi
 mkdir -p ~/.config/picom
 cp picom.conf ~/.config/picom/picom.conf
 
+mkdir -p ~/.config/conky
+cd conky
+cp -r * ~/.config/conky
+cd ..
+
 ####Install Spectrtwm####################
 
 cd spectrwm
