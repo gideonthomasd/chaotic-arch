@@ -134,6 +134,7 @@ dunst
 calcurse
 spectrwm
 yt-dlp
+parcellite
 )
 
 count=0
