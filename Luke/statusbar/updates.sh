@@ -2,8 +2,8 @@
 
 case $BLOCK_BUTTON in
 	#3) notify-send "🧠 Memory hogs" "$(ps axch -o cmd:15,%mem --sort=-%mem | head)" ;;
-	3) su-to-root -X -c mx-packageinstaller ;;
-	1) setsid -f lxterminal -e 'sudo apt update && sudo apt upgrade' ;;
+	3) pamac-manager ;;
+	1) setsid -f lxterminal -e 'sudo pacman -Syu' ;;
 #) notify-send "🧠 Memory module" "\- Shows Memory Used/Total.
 #- Click to show memory hogs.
 #- Middle click to open htop." ;;
