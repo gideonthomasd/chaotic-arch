@@ -237,5 +237,6 @@ exec_always picom
 #exec_always /home/phil/.config/i3/testwallpaper
 #exec_always blueman-applet
 exec_always nm-applet
+exec_always parcellite
 
 #exec_always $HOME/.config/polybar/launch2.sh
