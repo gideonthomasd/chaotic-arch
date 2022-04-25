@@ -50,6 +50,7 @@ brave-bin
 beautyline
 remmina
 pycharm-community-eap
+balena-etcher
 python38
 )
 
