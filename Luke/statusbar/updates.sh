@@ -10,7 +10,7 @@ case $BLOCK_BUTTON in
 	#6) "$TERMINAL" -e "$EDITOR" "$0" ;;
 esac
 
-upd=$(aptitude search "~U" | wc -l)
+upd=$(checkupdates | wc -l)
 
 echo " "$upd
 #echo "%{T1} %{T-} %{T1} $MEMUSED/$MEMTOT %{T-}"
