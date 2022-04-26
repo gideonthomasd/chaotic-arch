@@ -168,6 +168,7 @@ alias update="sudo timeshift --create && sudo pacman -Syyu"
 #NOT NEEDED FOR ARCH alias fixsnap="find -L ~/.local/share/applications -type l -delete && ln -sf /var/lib/snapd/desktop/applications/*.desktop ~/.local/share/applications/"
 alias yt7='yt-dlp -o "%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" -f "best[height>=720][ext=mp4]"'
 alias yta='yt-dlp -ic --yes-playlist --extract-audio --audio-format mp3 --audio-quality 0'
+alias y='ytfzf -d -f -t'
 neofetch
 
 
