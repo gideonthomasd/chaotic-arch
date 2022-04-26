@@ -52,6 +52,7 @@ remmina
 pycharm-community-eap
 balena-etcher
 python38
+ytfzf
 )
 
 count=0
