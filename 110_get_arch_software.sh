@@ -135,6 +135,8 @@ calcurse
 spectrwm
 yt-dlp
 parcellite
+system-config-printer
+print-manager
 )
 
 count=0
