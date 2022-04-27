@@ -53,6 +53,7 @@ pycharm-community-eap
 balena-etcher
 python38
 ytfzf
+ueberzug
 )
 
 count=0
