@@ -137,6 +137,7 @@ yt-dlp
 parcellite
 system-config-printer
 print-manager
+freerdp
 )
 
 count=0
