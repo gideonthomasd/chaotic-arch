@@ -54,6 +54,7 @@ balena-etcher
 python38
 ytfzf
 ueberzug
+yay
 )
 
 count=0
